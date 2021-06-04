@@ -1,0 +1,147 @@
+        /****Header****/
+
+header{
+    background-color: #fcfcfc;
+}
+header img{
+    width: 100px;
+    margin:0 10px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+nav a:hover{
+    color: #fb8b9b;
+}
+#svg1{
+    width: 20px;
+    color: #fb8b9b;
+    align-self: center;
+}
+#svg1:hover{
+    color: black;
+} 
+    /*******Section1******/
+
+h1{
+    font-size: 3em;
+}
+header section{
+    background-image: url('img/background.jpg');
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+    color: white;
+}
+header h1{
+    position: relative;
+    top: 150px;
+}
+header p{
+    position: relative;
+    top: 140px;
+    margin: 0 180px;
+}
+input[type=text] {
+    background-color: #fb8b9b;
+    color: #fdc5c8;
+    margin: auto;
+    padding: 15px ;
+    font-size: 1em;
+    border:2px solid #fb8b9b;
+    width: 98%;
+}
+        /***MAIN****/
+    /*******Section2******/
+
+h3{
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    border-top: 2px dotted gray;
+    border-left: 2px dotted gray;
+    border-right: 2px dotted gray;
+    margin: 40px 70px;
+    padding: 30px 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+main section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h6{
+    color: #fb8b9b;
+    font-size: 1.2em;
+}
+#svg2{
+    width: 40px;
+    color: #fb8b9b;   
+}
+article p{
+    text-align: left;
+    margin: 0 80px;
+    color: gray;
+    font-size: 1em;
+}
+/*****FOOTER******/
+footer{
+    background-color: #213e4e;
+    text-align: center;
+    padding: 30px;
+}
+footer div{
+    display: flex;
+    justify-content: space-around;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer img{
+    width: 50px;
+    margin-top: 30px;
+}
+footer p{
+    color: white;
+}
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    main section{
+        display: flex;
+        flex-direction: column;
+    }
+    article p {
+        margin-left: 200px;
+    }
+    article{
+        margin-bottom: 20px;
+    }
+    footer div{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
